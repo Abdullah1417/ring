@@ -1,4 +1,3 @@
-================
 RingQt Extension
 ================
 
@@ -12,7 +11,6 @@ The folder "GuiLib" contains the Ring classes that wraps Qt classes.
 
 The folder "Docs" contains scripts that generate the documentation of this extension.
 
-===========================
 How to study this extension
 ===========================
 
@@ -21,7 +19,6 @@ How to study this extension
 (2) Then look at events\qtevents.ring 
 
 
-===========================
 How to build this extension
 ===========================
 
@@ -30,9 +27,21 @@ How to build this extension
 (2) Build the extension (buildmingw32.bat or buildgcc.sh or buildclang.sh)
 
 
-=============
+Note: gencode.bat & buildmingw32.bat (Tested using Qt 5.5.1)
+
+
+How to build this extension using Qt 5.12.2
+===========================================
+
+(1) Run the code generator : gencodeqt512.bat
+
+(2) Build the extension : buildqt512.bat
+
+
 Project Files
 =============
 
 (1) ring_qt.pro  (Qt 5.5.1)
-(2) ring_qt595.pro 
+
+(2) ring_qt512.pro (Qt 5.12.2)
+
